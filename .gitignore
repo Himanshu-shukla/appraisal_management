@@ -1,0 +1,18 @@
+# Ignore common files and directories
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Ignore backend and frontend specific files and directories
+backend/node_modules/
+backend/.env
+backend/build/
+backend/dist/
+backend/logs/
+
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+frontend/logs/
